@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { mockChatMessages, mockUsers } from '../data/mockData';
-import { Send, Paperclip, MoreVertical, Circle } from 'lucide-react';
+import { Send, Paperclip, MoreVertical, Circle, MessageSquare } from 'lucide-react';
 
 const Chat = () => {
   const { user } = useAuth();
