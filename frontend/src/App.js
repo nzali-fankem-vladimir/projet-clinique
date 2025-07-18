@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "react-big-calendar/lib/css/react-big-calendar.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import Login from "./components/Login";
